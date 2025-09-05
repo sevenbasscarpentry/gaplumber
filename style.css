@@ -1,25 +1,20 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+:root{
+  --brand:#064cd6;
+  --brand-dark:#032678;
+  --accent:#ffb03b;
 }
-.hero {
-  background: url('assets/hero.jpg') center/cover no-repeat;
-  height: 70vh;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
-}
-.service-card img {
-  height: 200px;
-  object-fit: cover;
-}
-footer {
-  background: #0d6efd;
-  color: white;
-  padding: 20px 0;
-}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,cantarell,'Helvetica Neue',Arial,sans-serif;color:#1b2430;line-height:1.6}
+.navbar-brand img{height:36px;margin-right:10px}
+.hero{background:url('assets/hero.jpg') center/cover no-repeat;height:72vh;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;position:relative}
+.hero .overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.2),rgba(0,0,0,.35))}
+.hero .content{position:relative;z-index:1}
+.btn-cta{background:var(--accent);border:none;font-weight:600}
+.btn-cta:hover{filter:brightness(.95)}
+footer{background:var(--brand);color:#fff;padding:24px 0}
+.section-pad{padding:72px 0}
+.card img{height:220px;object-fit:cover}
+.badge-pill{border-radius:999px;padding:.4rem .8rem;background:rgba(6,76,214,.1);color:var(--brand);font-weight:600}
+footer a{color:#fff;text-decoration:underline}
+.small{opacity:.9}
