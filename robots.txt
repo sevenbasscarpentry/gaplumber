@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gaplumber.netlify.app/sitemap.xml
