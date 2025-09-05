@@ -1,0 +1,25 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero {
+  background: url('assets/hero.jpg') center/cover no-repeat;
+  height: 70vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.service-card img {
+  height: 200px;
+  object-fit: cover;
+}
+footer {
+  background: #0d6efd;
+  color: white;
+  padding: 20px 0;
+}
