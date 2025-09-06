@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-label="Plumber van and tools">
-  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#e8f5ee"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
-  <rect width="560" height="360" fill="url(#g)"/>
-  <rect x="40" y="230" width="220" height="80" rx="6" fill="#d6e9df" stroke="#b6d0c4"/>
-  <rect x="270" y="200" width="250" height="110" rx="10" fill="#c1d9cf" stroke="#9fbfb2"/>
-  <circle cx="320" cy="318" r="16" fill="#4b5e55"/>
-  <circle cx="480" cy="318" r="16" fill="#4b5e55"/>
-  <rect x="60" y="245" width="180" height="16" rx="3" fill="#b6d0c4"/>
-  <rect x="60" y="265" width="180" height="16" rx="3" fill="#b6d0c4"/>
-  <rect x="320" y="220" width="180" height="50" rx="6" fill="#efefef" stroke="#c9c9c9"/>
-  <path d="M120 120c40 0 40 60 80 60" stroke="#9fbfb2" stroke-width="10" fill="none"/>
-  <circle cx="120" cy="120" r="14" fill="#9fbfb2"/>
-</svg>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 360'><rect width='560' height='360' fill='#eaf5fb'/></svg>

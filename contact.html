@@ -1,140 +1,55 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>Contact — GA Plumbing</title>
-  <meta name="description" content="Book online, request a quote, or ask a question.">
-  
+<!doctype html><html lang='en'><head><title>Contact — GA Plumbing</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/assets/img/favicon.svg">
 <link rel="stylesheet" href="/assets/css/styles.css">
-<meta name="theme-color" content="#124734">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Plumber",
-  "name": "GA Plumbing",
-  "image": "https://gaplumbing.example/assets/img/hero.svg",
-  "telephone": "+1-706-555-1234",
-  "email": "hello@gaplumbing.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Gainesville",
-    "addressRegion": "GA",
-    "postalCode": "30501",
-    "streetAddress": "123 Pine St"
-  },
-  "areaServed": ["Gainesville","Oakwood","Flowery Branch","Buford","Cumming"],
-  "openingHours": "Mo-Su 00:00-23:59",
-  "priceRange": "$$"
-}
-</script>
-
-</head>
-<body>
-  
-<header class="container">
-  <div class="nav">
-    <a class="brand" href="/"><span class="brand-logo">GA</span> Plumbing</a>
-    <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
-      <span></span><span></span><span></span>
-    </button>
-    <nav id="nav-menu" class="nav-menu" aria-label="Primary">
-      <a href="/">Home</a>
-      <a href="/services.html">Services</a>
-      <a href="/about.html">About</a>
+<meta name="theme-color" content="#0d4a6f">
+</head><body>
+<header class="site-head">
+  <div class="topbar container">
+    <p><strong>24/7 Emergency</strong> • Same-day service • Licensed & Insured</p>
+    <nav class="util-links" aria-label="Utility">
+      <a href="/schedule.html">Schedule</a>
+      <a href="/financing.html">Financing</a>
+      <a href="/reviews.html">Reviews</a>
       <a href="/contact.html">Contact</a>
     </nav>
   </div>
-  <div class="emergency-banner" role="status">
-    <strong>24/7 Emergency Plumbing</strong>
-    <a class="btn btn-ghost" href="tel:+17065551234">Call Now</a>
+  <div class="nav container">
+    <a class="brand" href="/"><span class="logo">GA</span> Plumbing</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()"><span></span><span></span><span></span></button>
+    <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/services.html">Services</a>
+      <a href="/gallery.html">Gallery</a>
+      <a href="/videos.html">Videos</a>
+      <a href="/about.html">About</a>
+      <a class="cta-link" href="/schedule.html">Book</a>
+    </nav>
   </div>
 </header>
-
-  <main class="container section" id="book">
-    <h1>Book Online</h1>
-    <div class="grid-2">
-      <form name="booking" method="POST" data-netlify="true" class="card form" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="booking">
-        <p class="hidden">
-          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-        </p>
-        <label>Full Name
-          <input required name="name" placeholder="Jane Doe">
-        </label>
-        <label>Email
-          <input required type="email" name="email" placeholder="you@example.com">
-        </label>
-        <label>Phone
-          <input required type="tel" name="phone" placeholder="(###) ###-####">
-        </label>
-        <label>Preferred Date
-          <input required type="date" name="date">
-        </label>
-        <label>Preferred Time
-          <input required type="time" name="time">
-        </label>
-        <label>Service Needed
-          <select name="service">
-            <option>Drain Cleaning</option>
-            <option>Water Heater</option>
-            <option>Leak Repair</option>
-            <option>Fixture Install</option>
-            <option>Other</option>
-          </select>
-        </label>
-        <label>Message
-          <textarea name="message" rows="5" placeholder="Describe the issue..."></textarea>
-        </label>
-        <button class="btn btn-primary" type="submit">Request Appointment</button>
-      </form>
-      <div class="card">
-        <h2>Call or Text</h2>
-        <p><a class="btn btn-primary" href="tel:+17065551234">📞 (706) 555‑1234</a></p>
-        <p><a class="btn" href="sms:+17065551234">💬 Text Now</a></p>
-        <h2>Hours</h2>
-        <p>Mon–Sun • Emergencies 24/7</p>
-        <h2>Email</h2>
-        <p><a href="mailto:hello@gaplumbing.com">hello@gaplumbing.com</a></p>
-      </div>
-    </div>
-  </main>
-  
+<main class='container section'><h1>Contact</h1><form name='contact' method='POST' data-netlify='true' class='form card'><input type='hidden' name='form-name' value='contact'><label>Name<input name='name' required></label><label>Email<input type='email' name='email' required></label><label>Message<textarea name='message' required></textarea></label><button class='btn btn-primary'>Send</button></form></main>
 <footer class="footer">
-  <div class="container">
-    <div class="grid-3">
-      <div>
-        <h4>GA Plumbing</h4>
-        <p>Your neighborhood, owner‑operated plumbing service. Upfront pricing. Clean work. Guaranteed.</p>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <ul class="list">
-          <li>Phone: <a href="tel:+17065551234">+1 (706) 555-1234</a></li>
-          <li>Text: <a href="sms:+17065551234">+1 (706) 555-1234</a></li>
-          <li>Email: <a href="mailto:hello@gaplumbing.com">hello@gaplumbing.com</a></li>
-          <li>Hours: 24/7 for emergencies</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Service Area</h4>
-        <address>
-          Gainesville • Oakwood • Flowery Branch • Buford • Cumming
-        </address>
-      </div>
+  <div class="container grid-3">
+    <div>
+      <h4>GA Plumbing</h4>
+      <p>Owner-operated plumbing for North Georgia. Honest pricing. Clean work. Guaranteed.</p>
     </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 GA Plumbing. Licensed & Insured.</p>
-      <nav class="social" aria-label="Social">
-        <a href="#" aria-label="Instagram" title="Instagram">
-          <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm0 2h10c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3zm11 1.5a1 1 0 100 2 1 1 0 000-2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6z"/></svg>
-        </a>
-        <a href="#" aria-label="Facebook" title="Facebook">
-          <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 22v-8h3l1-4h-4V7a1 1 0 011-1h3V2h-3a5 5 0 00-5 5v3H6v4h3v8h4z"/></svg>
-        </a>
-      </nav>
+    <div>
+      <h4>Contact</h4>
+      <ul class="list">
+        <li>Phone: <a href="tel:+17065551234">(706) 555-1234</a></li>
+        <li>Text: <a href="sms:+17065551234">(706) 555-1234</a></li>
+        <li>Email: <a href="mailto:hello@gaplumbing.com">hello@gaplumbing.com</a></li>
+      </ul>
     </div>
+    <div>
+      <h4>Service Area</h4>
+      <p>Gainesville • Oakwood • Flowery Branch • Buford • Cumming</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2025 GA Plumbing</p>
   </div>
 </footer>
 <div class="floating-actions">
@@ -153,6 +68,4 @@
   </form>
 </div>
 <script src="/assets/js/main.js"></script>
-
-</body>
-</html>
+</body></html>
